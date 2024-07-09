@@ -1,7 +1,12 @@
+#!/usr/bin/env python3
+
+# Henrique Medeiros Dos Reis
+# 07/09/2024
+
 import pandas as pd
 
 pd.set_option('display.max_columns',None)
 df = pd.read_csv('spotify_dataset.csv')
-df.head()
+print(df.head())
 
-df.shape()
+print(df.shape)
